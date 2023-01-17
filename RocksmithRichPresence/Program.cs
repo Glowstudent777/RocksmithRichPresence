@@ -25,7 +25,7 @@ namespace RocksmithRichPresence
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex);
-                    throw ex;
+                    throw;
                 }
             }
         }
@@ -34,7 +34,7 @@ namespace RocksmithRichPresence
         {
             Console.WriteLine("Waiting for Rocksmith...");
 
-            Process rsProcess = null;
+            Process? rsProcess = null;
 
             while (true)
             {
