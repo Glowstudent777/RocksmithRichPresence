@@ -10,7 +10,7 @@ namespace RocksmithRichPresence
 {
     public class Program
     {
-        private DiscordRpcClient _discord;
+        private DiscordRpcClient? _discord;
 
         static void Main(string[] args)
         {
