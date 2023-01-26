@@ -5,25 +5,38 @@ A small app to add Discord Rich Presence for Rocksmith 2014.
 Displays the current song being played, and what state the user is currently in (e.g. playing a song, in the menus etc).
 
 > **Note**
-> Currently has trouble reading some CDLC stuff.
+> Corrupt CDLC is common so they may not be able to be fully parsed.
 
-## Cloning
+## Cloning and Building
 
 Run the clone command.
 ```sh-session
 git clone https://github.com/Glowstudent777/RocksmithRichPresence.git
 ```
+```sh-session
+cd RocksmithRichPresence
+```
 
-Clone the dependancies.
+Clone and update the submodules.
 ```sh-session
 git submodule init
 ```
 
-Update the dependancies.
 ```sh-session
 git submodule update
 ```
 
+Restore dependancies.
+```sh-session
+dotnet restore
+```
+
+Building.
+```sh-session
+dotnet build
+```
+
 ## Credits
 
-- <a href="https://github.com/brattonross/"><img src="https://github.com/brattonross.png?size=30"/> brattonross</a> for the original code.
+- <a href="https://github.com/kokolihapihvi/">kokolihapihvi</a> for the Rocksnifferlib and PsarcLib.
+- <a href="https://github.com/brattonross/">brattonross</a> for the original code.
