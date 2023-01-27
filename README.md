@@ -38,5 +38,5 @@ dotnet build
 
 ## Credits
 
-- <a href="https://github.com/kokolihapihvi/">kokolihapihvi</a> for the Rocksnifferlib and PsarcLib.
-- <a href="https://github.com/brattonross/">brattonross</a> for the original code.
+- <a href="https://github.com/kokolihapihvi/">kokolihapihvi</a> - Rocksnifferlib and PsarcLib.
+- <a href="https://github.com/brattonross/">brattonross</a> - Base code.
