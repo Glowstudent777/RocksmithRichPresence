@@ -22,7 +22,12 @@
     <LangVersion>10</LangVersion>
     <Platforms>AnyCPU;x64</Platforms>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RockSnifferLib\RockSnifferLib.csproj" />
   </ItemGroup>
