@@ -40,6 +40,8 @@ namespace RocksmithRichPresence
         static void Main(string[] args)
         {
             var p = new Program();
+            Console.Title = "Rocksmith RPC";
+            
 
             while (true)
             {
